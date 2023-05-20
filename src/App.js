@@ -88,9 +88,11 @@ function App() {
             <Box
               fontFamily="DM Serif Display"
               fontSize="44px"
-              fontStyle="italic"
+              fontStyle="normal"
             >
-              DECENTRA
+              <span 
+              color="blue"
+              >Decentra</span>
             </Box>
             <Box> Decentralized Social Media App</Box>
           </Box>
@@ -102,7 +104,7 @@ function App() {
             <Button
               onClick={signIn}
               color="rgba(5,32,64)"
-              _hover={{ backgroundColor: "#808080" }}
+              _hover={{ backgroundColor: "#00d4ff" }}
             >
               Connect
             </Button>
